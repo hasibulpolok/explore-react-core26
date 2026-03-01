@@ -28,9 +28,21 @@ import './App.css'
 // export default Apps;
 
 const Apps = ()=>{
+ 
   return(
     <>
-    tin number
+<Person/>
+    </>
+  )
+}
+
+const Person = ()=>{
+  
+  const age = 28;
+  const name = "Polok";
+  return(
+    <>
+       <p>I'm {name}. I'm {age} years old</p>
     </>
   )
 }
