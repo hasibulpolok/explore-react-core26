@@ -3,14 +3,36 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
-function App() {
+// function App() {
   
 
-  return (
+//   return (
+//     <>
+//       <h2>Welcome to react</h2>
+//     </>
+//   )
+// }
+
+// export default App
+
+
+// function Apps (){
+//   return(
+//   <>
+
+//   dui number
+//   </>
+//   )
+// }
+
+// export default Apps;
+
+const Apps = ()=>{
+  return(
     <>
-      <h2>Welcome to react</h2>
+    tin number
     </>
   )
 }
 
-export default App
+export default Apps;
