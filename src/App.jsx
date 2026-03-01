@@ -60,8 +60,8 @@ const Developer = (props) => {
   );
 };
 
-const Player = (props) => {
-  const { name, sports } = props;
+const Player = ({name,sports}) => {
+ 
 
   return (
     <div
